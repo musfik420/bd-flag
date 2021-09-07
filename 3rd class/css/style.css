@@ -1,0 +1,86 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h5{
+	font-family: monospace;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+
+}
+.red{
+	width: 125px;
+	height: 125px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 29%;
+	left: 40%;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -100px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -1px;
+	cursor: pointer;
+}
+.social-media{
+	width: 100%;
+	background: gray;
+	margin: 80px 0px;
+	padding: 80px 0px;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	color: black;
+	font-size: 23px;
+	border-radius: 100%;
+	margin: 0px 20px;
+}
+.social-icons li a .fa-facebook:hover{
+	background: #097CEB;
+	transition: 1s;
+	color: white;
+}
+.social-icons li a .fa-twitter:hover{
+	background: #6AC1FB;
+	transition: 1s;
+	color: white;
+}
+.social-icons li a .fa-youtube:hover{
+	background: #FF0000;
+	transition: 1s;
+	color: white;
+}
+.social-icons li a .fa-behance:hover{
+	background: #000;
+	transition: 1s;
+	color: white;
+}
